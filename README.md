@@ -91,3 +91,31 @@ from sklearn.tree import DecisionTreeClassifier
 clf = DecisionTreeClassifier(criterion='gini', max_depth=3)
 clf.fit(X_train, y_train)
 predictions = clf.predict(X_test)
+
+## 📚 References
+
+- Breiman, L., Friedman, J., Stone, C.J., & Olshen, R.A. (1984). *Classification and Regression Trees*. Wadsworth.
+- [Scikit-learn documentation](https://scikit-learn.org)
+
+---
+
+## 📄 License
+
+This project is shared under the **MIT License** for educational and open-source use.
+
+---
+
+## 🙋‍♀️ Contributing
+
+Pull requests are welcome! You can contribute by adding:
+
+- 📈 Visualizations  
+- 📓 Notebooks for classification/regression use cases  
+- 📊 Sample datasets  
+- 🔁 CART implementations in different languages  
+
+---
+
+## 📬 Contact
+
+Questions or feedback? Reach out via [LinkedIn](https://www.linkedin.com/in/rixscx) or open an issue on this repository.
